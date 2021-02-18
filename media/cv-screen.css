@@ -110,7 +110,8 @@ body {
 }
 ol,
 ul {
-  list-style: none;
+  list-style: square inside;
+  max-width: 85%;
 }
 blockquote,
 q {
@@ -147,6 +148,10 @@ strong {
 
 p strong {
   font-weight: bold;
+}
+
+p {
+  max-width: 85%;
 }
 
 em {
@@ -205,11 +210,11 @@ code {
   float: right;
 }
 
-li:before {
+/* li:before {
   content: "-";
   position: relative;
   left: -0.5em;
-}
+} */
 
 li {
   /*second line indent*/
